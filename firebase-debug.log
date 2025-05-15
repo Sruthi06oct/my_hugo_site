@@ -1,14 +1,14 @@
-[debug] [2025-05-15T14:50:22.511Z] ----------------------------------------------------------------------
-[debug] [2025-05-15T14:50:22.515Z] Command:       /usr/local/bin/firebase /home/student-00-b6cce2c3e9c3/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
-[debug] [2025-05-15T14:50:22.516Z] CLI Version:   14.3.1
-[debug] [2025-05-15T14:50:22.516Z] Platform:      linux
-[debug] [2025-05-15T14:50:22.516Z] Node Version:  v20.18.2
-[debug] [2025-05-15T14:50:22.516Z] Time:          Thu May 15 2025 14:50:22 GMT+0000 (Coordinated Universal Time)
-[debug] [2025-05-15T14:50:22.517Z] ----------------------------------------------------------------------
+[debug] [2025-05-15T15:29:10.587Z] ----------------------------------------------------------------------
+[debug] [2025-05-15T15:29:10.589Z] Command:       /usr/local/bin/firebase /home/student-02-408af29378f7/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2025-05-15T15:29:10.590Z] CLI Version:   14.3.1
+[debug] [2025-05-15T15:29:10.590Z] Platform:      linux
+[debug] [2025-05-15T15:29:10.590Z] Node Version:  v20.18.2
+[debug] [2025-05-15T15:29:10.590Z] Time:          Thu May 15 2025 15:29:10 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-05-15T15:29:10.590Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2025-05-15T14:50:22.519Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
-[debug] [2025-05-15T14:50:23.191Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2025-05-15T14:50:23.226Z] Running auto auth
+[debug] [2025-05-15T15:29:10.593Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2025-05-15T15:29:11.229Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-15T15:29:11.373Z] Running auto auth
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -18,14 +18,14 @@
 
 You're about to initialize a Firebase project in this directory:
 
-  /home/student-00-b6cce2c3e9c3/my_hugo_site
+  /home/student-02-408af29378f7/my_hugo_site
 
 Before we get started, keep in mind:
 
   * You are initializing within an existing Firebase project directory
 
-[debug] [2025-05-15T14:50:23.457Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
-[debug] [2025-05-15T14:50:23.458Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2025-05-15T15:29:11.489Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2025-05-15T15:29:11.489Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
 [info] 
 === Project Setup
 [info] 
@@ -33,15 +33,15 @@ Before we get started, keep in mind:
 [info] You can create multiple project aliases by running firebase use --add, 
 [info] but for now we'll just set up a default project.
 [info] 
-[debug] [2025-05-15T14:51:08.926Z] Using project from CLI flag: qwiklabs-gcp-03-484a0c00ec21
-[debug] [2025-05-15T14:51:08.927Z] No OAuth tokens found
-[debug] [2025-05-15T14:51:08.928Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/qwiklabs-gcp-03-484a0c00ec21 [none]
-[debug] [2025-05-15T14:51:09.227Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/qwiklabs-gcp-03-484a0c00ec21 403
-[debug] [2025-05-15T14:51:09.227Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/qwiklabs-gcp-03-484a0c00ec21 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2025-05-15T14:51:09.228Z] Request to https://firebase.googleapis.com/v1beta1/projects/qwiklabs-gcp-03-484a0c00ec21 had HTTP Error: 403, The caller does not have permission
-[debug] [2025-05-15T14:51:09.229Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/qwiklabs-gcp-03-484a0c00ec21 had HTTP Error: 403, The caller does not have permission
-    at responseToError (/home/student-00-b6cce2c3e9c3/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/responseToError.js:52:12)
-    at RetryOperation._fn (/home/student-00-b6cce2c3e9c3/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/apiv2.js:312:77)
+[debug] [2025-05-15T15:29:37.038Z] Using project from CLI flag: qwiklabs-gcp-03-484a0c00ec21
+[debug] [2025-05-15T15:29:37.041Z] No OAuth tokens found
+[debug] [2025-05-15T15:29:37.042Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/qwiklabs-gcp-03-484a0c00ec21 [none]
+[debug] [2025-05-15T15:29:37.249Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/qwiklabs-gcp-03-484a0c00ec21 403
+[debug] [2025-05-15T15:29:37.250Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/qwiklabs-gcp-03-484a0c00ec21 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-05-15T15:29:37.250Z] Request to https://firebase.googleapis.com/v1beta1/projects/qwiklabs-gcp-03-484a0c00ec21 had HTTP Error: 403, The caller does not have permission
+[debug] [2025-05-15T15:29:37.251Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/qwiklabs-gcp-03-484a0c00ec21 had HTTP Error: 403, The caller does not have permission
+    at responseToError (/home/student-02-408af29378f7/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/responseToError.js:52:12)
+    at RetryOperation._fn (/home/student-02-408af29378f7/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/apiv2.js:312:77)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
 [error] 
 [error] Error: Failed to get Firebase project qwiklabs-gcp-03-484a0c00ec21. Please make sure the project exists and your account has permission to access it.

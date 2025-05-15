@@ -1,1 +1,1 @@
-Error: "/home/student-00-b6cce2c3e9c3/my_hugo_site/config.toml:1:1": unmarshal failed: toml: key theme is already defined
+Error: "/home/student-02-408af29378f7/my_hugo_site/config.toml:1:1": unmarshal failed: toml: key theme is already defined
